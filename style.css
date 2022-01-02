@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 1450px;
+    height: 600px;
     align-items: center;
     font-size: 24px;
     flex-basis: auto;
@@ -67,7 +68,7 @@ a{
 .button1{
     font-size: large;
     color: white;
-    background-color: blue;
+    background-color: #3882f6;
     width: 100px;
     height: 35px;
     border-style:none;
@@ -79,22 +80,112 @@ a{
     display: flex;
     flex-direction: column;
     width: 1450px;
-    
-    
+    height: 600px;
+    justify-content: center;
 }
 .imgcontainer{
     display: flex;
-    border: blue;
+    
     border-width: 10px;
     justify-content: space-between;
     align-content: center;
-    
-    
 }
 img{
-    border: 3px solid #1f2937;
+    border: 3px solid #3882f6;
     border-radius: 6px;
-    margin: 20px;
     width: 200px;
     height: 200px;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.img3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.img4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.quote{
+    width: 1450px;
+    height: 600px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: lighter;
+    font-size: 25px;
+    font-style: italic;
+ }
+
+.qtext{
+   width: 700px;
+   padding-top: 100px;
+}
+.qsource{
+    padding-bottom: 100px;
+    padding-left: 250px;
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    width: 1450px;
+    height: 600px;
+    background-color: white;
+    justify-content: center;
+    
+}
+.fbox{
+    display: flex;
+    align-self: center;
+    margin: 120px;
+    background-color: #3882f6;
+    width: 1000px;
+    border: #3882f6;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ftext{
+    margin: 80;
+    padding: 40px;
+    color: white;
+}
+button{
+    font-size: large;
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 35px;
+    border-style:solid;
+    border-radius: 4px;
+    border-color: white;
+}
+.copyright{
+    width: 1450px;
+    background-color: #1f2937;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+h3{
+    font-size: 30px;
 }
